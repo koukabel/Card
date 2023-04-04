@@ -1,0 +1,57 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #966565;
+$display: flex; 
+$position: center; 
+
+
+
+
+body {
+background-color: #d3d2cf;
+background-image: url("https://www.transparenttextures.com/patterns/elastoplast.png");
+}
+
+
+#container {
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    max-width: 500px;
+    min-width: 550px;
+    background: #f1f5f8;  
+    background-size: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px rgba(0, 0, 0, 0.2509803922);
+    box-sizing: border-box;
+}
+
+
+#first-half {
+    background-color: grey;
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    border-radius: 20px 20px 0 0;
+    font: $font-stack;
+}
+
+#second-half {
+    display: $display;
+    flex-direction: column;
+    text-align: left;
+    padding: 15px;
+}
+
+.item {
+background-color: #dcdcdc;
+font: $font-stack;
+    margin: 5px;
+    border-radius: 15%;
+}
+
+.action {
+    font: $font-stack;
+    color: purple; 
+    font-weight: bold;
+    padding: 5px
+}
